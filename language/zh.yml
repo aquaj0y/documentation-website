@@ -1,0 +1,97 @@
+nav:
+  home: 主页
+  imprint: 法律声明
+  sponsors: 赞助商
+  contributors: 贡献者
+  support: 支持
+  contributing: 贡献
+  license: 许可证
+  autowiring: 自动连接
+  middlewares: 中间件
+  results: 结果
+  usage: 用法
+  logging: 日志记录
+  storage: 存储
+  routes: 路由
+  quick-start: 快速开始
+  faq: 常见问题
+  code-of-conduct: 行为准则
+  tools: 工具
+socials:
+  npm:
+    title0: "NPMJS @idrinth/api-bench" 
+    text0: "@idrinth/api-bench"
+    title1: "NPMJS @idrinth/api-bench-cli"
+    text1: "@idrinth/api-bench-cli"
+    alt: "NPM"
+ docker:
+    title0: "在DockerHub上 idrinth/api-bench-gitlab-runner"
+    text0: "Gitlab Runner"
+    title1: "在DockerHub上 idrinth/api-bench-gitea-action"
+    text1: "Gitea Action"
+    title2: "在DockerHub上 idrinth/api-bench"
+    text2: "Pure Alpine"
+    title3: "在DockerHub上 idrinth/api-bench-history-microservice "
+    text3: "历史 Microservice"
+    title4: "在DockerHub上 idrinth/api-bench-history-website"    text4: "历史 website"
+    alt: "DockerHub"
+  github:
+    title: "idrinth/api-bench 在GitHub"
+    alt: "GitHub"
+  medium:
+    title: "idrinth-api-bench 在Medium"
+    alt: "Medium"
+  youtube:
+    title: "idrinth-api-bench 在YouTube"
+    alt: "YouTube"
+  slack:
+    title: "@idrinth/api-bench 在slack"
+    alt: "Slack"
+  linkedin:
+    title: "@idrinth/api-bench 在LinkedIn"
+    alt: "LinkedIn"
+    title0: "@idrinth-api-bench  user and maintainer group"
+    text0: "User-Group"
+    title1: "idrinth-api-bench organisation"
+    text1: "IAB Org"
+  open-sauced:
+    title: "@idrinth/api-bench projects 在OpenSauced"
+    alt: "OpenSauced"
+  reddit:
+    title: "@idrinth/api-bench 在Reddit"
+    alt: "Reddit"
+  x:
+    title: "@IdrinthAPIBench 在 X/Twitter"
+    alt: "X/Twitter"
+
+code-of-conduct:
+  meta:
+    title: "行为准则"
+    description: "@idrinth/api-bench 贡献者行为准则"
+
+home:
+  meta:
+    title: "主页"
+    description: "欢迎来到 @idrinth/api-bench 的文档"
+  title: "这个项目做什么？"
+  what: "这个项目提供了一个API性能测量和监控框架，旨在提供最佳的开发者体验同时保持易于扩展和配置。"
+  why: "这有助于在代码中快速检测性能变化。"
+  demo:
+    youtube: "Version 2.7.4 Demo"
+  benchmark:
+    title: "为什么使用Benchmark Runner?"
+    microservices: "由于微服务架构中API数量增加，我们需要一种方式来确定服务响应时间变化是否与代码变化相关。"
+    purpose: "为此，定义一个可重复的载荷并进行中等数量的检查似乎是最有用的。"
+  load-test:
+    title: "为什么使用Load Test Runner?"
+    microservices: "为规划和扩容目的，我们需要知道我们可以处理多少用户和微服务实例。"
+    purpose: "为此，定义一个可重复的载荷并进行少量检查似乎是最有用的。"
+  content-test:
+    title: "为什么使用Content Test Runner?"
+    microservices: "随着API数量的激增，我们需要快速测试它们，并且只需要最少的投入。"
+    purpose: "为此，重复的请求并进行大量检查似乎是最有用的。"
+  libraries:
+    title: "关于现有库"
+    description: "其他工具都已经有一段时间没有更新，而且不提供TypeScript的类型定义。这使得在需要更好静态代码检查的项目中使用这些工具的吸引力大大降低，而更好的静态代码检查可以显著提升开发速度。"
+    reusability: "使用此框架的最大好处是编写一次路由定义，然后在所有所需的测试类型中重复使用。"
+    threading: "此外，该工具将验证线程与处理实际请求的线程分离开来，以进一步减少复杂验证或巨大响应体对数据收集的影响。"
